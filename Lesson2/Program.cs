@@ -1,2 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа
+
+// Console.WriteLine("введите трёхзначное число");
+// int digit = int.Parse(Console.ReadLine());
+// digit = digit / 10 % 10;
+// Console.WriteLine(digit);
+
+// напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет
+
+Console.WriteLine("введите число");
+string digit = Console.ReadLine();
+if (digit != " "){ // ?????
+    Console.WriteLine(digit[2]);
+}
+else{
+    Console.WriteLine("нет"); // ?????
+}
+// напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходны
